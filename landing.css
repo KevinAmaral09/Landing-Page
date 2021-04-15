@@ -246,3 +246,149 @@ footer{
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
 }
+
+@media (max-width: 420px){
+    .container{
+        width: 80vw;
+    }
+
+    .container_header {
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .menu_header {
+        display: none;
+
+        height: 300px;
+        width: 100%;
+        padding-left: 10vw;
+
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: unset;
+
+        position: absolute;
+        left: 0;
+        top: 60px;
+        
+        background-color: black;
+    }
+    
+    .btn_menu i {
+        display: inline-block;
+    }
+
+    .container_banner{
+        display: flex;
+        justify-content: center;
+        height: 600px;
+    }
+
+    .fundo_banner{
+        height: 100%;
+        width: 100%;
+    }
+
+    .box_conteudo{
+        top: 145px;
+        left: 35px;
+        align-items: center;
+    }
+
+    h1{
+        width: 360px;
+        font-size: 62px;
+    }
+
+    .hr_banner{
+        width: 360px;
+        margin: 20px 0;
+    }
+
+    .box_conteudo span{
+        font-size: 36px;
+        margin-top: 10px;
+    }
+
+    .icone_mouse{
+        width: 45px;
+        margin-top: 30px;
+    }
+
+    .container_sobre{
+        height: auto;
+    }
+
+    .espacamento_sobre{
+        align-items: center; 
+    }
+
+    .h2_sobre{
+        font-size: 52px;
+        margin: 50px 0;
+        font-weight: 400;
+    }
+
+    .box_sobre{
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .img_box_sobre{
+        width: 80vw;
+    }
+
+    .box_sobre_textos{
+        margin-top: 50px;
+    }
+
+    .h3_sobre{
+        width: auto;
+        font-size: 38px;
+        margin: 50px 0;
+    }
+
+    .box_sobre_textos p{
+        width: auto;
+        text-align: justify;
+        margin-bottom: 50px;
+    }
+
+    .container_info {
+        flex-direction: column;
+        height: 600px;
+        justify-content: space-around;
+    }
+
+    .endereco {
+        height: 800px;
+        position: unset;
+        justify-content: space-evenly;
+    }
+
+    .endereco h2 {
+        width: unset;
+    }
+
+    .box_endereco {
+        width: 80vw;
+        height: unset;
+        padding: 60px 40px;
+    }
+
+    .box_endereco p {
+        margin-left: 0;
+    }
+
+    .endereco img {
+        position: unset;
+        width: 80vw;
+        margin-bottom: 45px;
+    }
+
+    footer span {
+        width: 80vw;
+        text-align: center;
+    }
+}
